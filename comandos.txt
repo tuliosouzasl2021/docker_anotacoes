@@ -1,0 +1,34 @@
+# Comandos do Docker
+
+
+# Criar um container.
+docker container run hello-world
+ 
+# Criar um container com o nome.
+docker container run --name meucontainer hello-world
+
+# Criar um container em modo interativo, você entra no container e deixa ele ativo, porém quando você sai o container é encerrado.
+docker container run -it ubuntu /bin/bash
+
+# Criar um container em modo dinamico, ou seja, o container fica ativo e não trava o seu terminal.
+docker container run -d mongo
+
+# Criar um container em modo interativo e dinamico, ou seja, o container fica ativo e você já entra no container.
+docker container run -itd ubuntu /bin/bash
+
+
+# Listar um cotainer ativo e inativo.
+docker container ls
+docker container ls -a 
+
+
+# Remover um container inativo.
+docker container rm <container id, nome>
+
+# Remover um container ativo.
+docker container rm -f <container id, nome>
+
+
+
+
+

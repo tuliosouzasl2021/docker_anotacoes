@@ -1,0 +1,5 @@
+# DOCKER
+
+- Principal ferramenta de containers do mercado.
+
+- Docker cria processor isolados e idepotente.

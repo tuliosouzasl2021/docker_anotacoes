@@ -1,0 +1,7 @@
+# Docker
+
+- Docker client = docker run, docker build e docker pull
+
+- Docker Daemon (docker host) = Containers e Image
+
+- Docker registry = Docker Hub
